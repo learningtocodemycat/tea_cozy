@@ -1,0 +1,52 @@
+/*All content effects*/
+*{
+  font-family: Helvetica;
+  font-size:22px;
+  color: seashell;
+  background-color:black;
+  opacity: 0.9;
+
+}
+
+/*Header styling*/
+.toppage{
+display:flex;
+height: 69px;
+max-width: auto;
+border-bottom: 1px solid seashell;
+position: fixed;
+top: 0;
+align-items: center;
+
+
+}
+
+/*Logo styling*/
+div.logo{
+display: flex;
+height: 50px;
+margin-left: 10px;
+
+
+}
+
+/*Navigation*/
+div nav{
+  display:flex;
+  height: auto;
+  width: 1190px;
+  margin-top: 11px;
+  justify-content: flex-end;
+
+
+}
+/*Individual links in the navigation*/
+.clank{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/*Link underline*/
+ a{
+  text-decoration:underline;
+}
