@@ -4,12 +4,11 @@
   font-size:22px;
   color: seashell;
   background-color:black;
-  opacity: 0.9;
 
 }
 
 /*Header styling*/
-.toppage{
+header .toppage{
 display:flex;
 height: 69px;
 max-width: auto;
@@ -18,7 +17,6 @@ position: fixed;
 top: 0;
 align-items: center;
 
-
 }
 
 /*Logo styling*/
@@ -26,8 +24,6 @@ div.logo{
 display: flex;
 height: 50px;
 margin-left: 10px;
-
-
 }
 
 /*Navigation*/
@@ -37,13 +33,37 @@ div nav{
   width: 1190px;
   margin-top: 11px;
   justify-content: flex-end;
-
-
 }
+
 /*Individual links in the navigation*/
 .clank{
 margin-left: 10px;
-margin-right: 10px;
+margin-right: 13px;
+}
+
+/*Big picture section*/
+
+.first{
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height: 800px;
+  border: 1px solid red;
+  justify-content: center;
+}
+.pictureframe{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  border: 2px solid blue;
+  background-image: url(../resources/images/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.blackbox{
+  display: flex;
+  border: 2px solid green:
 }
 
 /*Link underline*/
