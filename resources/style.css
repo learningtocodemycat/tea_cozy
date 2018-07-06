@@ -55,7 +55,6 @@ margin-right: 13px;
   display: flex;
   width: 1200px;
   height: 700px;
-  border: 2px solid blue;
   background-image: url(../resources/images/img-mission-background.jpg);
   justify-content: center;
   align-items: center;
@@ -63,7 +62,32 @@ margin-right: 13px;
 
 .blackbox{
   display: flex;
-  border: 2px solid green:
+  width: 1200px;
+  height: 90px;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.ourmission {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.ourmission h2{
+  display: flex;
+  align-self: center;
+  font-size: 32px;
+}
+
+.statement{
+  display: flex;
+  align-self: center;
+  align-items: center;
+
+
+
 }
 
 /*Link underline*/
