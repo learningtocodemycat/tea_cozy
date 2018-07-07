@@ -41,16 +41,18 @@ margin-left: 10px;
 margin-right: 13px;
 }
 
-/*Big picture section*/
+/*First section*/
 
 .first{
   display: flex;
   flex-direction: row;
   width: 1300px;
-  height: 800px;
+  height: 700px;
   border: 1px solid red;
   justify-content: center;
+  margin-left: 10px;
 }
+
 .pictureframe{
   display: flex;
   width: 1200px;
@@ -85,9 +87,155 @@ margin-right: 13px;
   display: flex;
   align-self: center;
   align-items: center;
+}
+
+/*Second Section*/
+
+.second{
+  display: flex;
+  height: 200px;
+  width: 1300px;
+  border: 2px solid red;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.head{
+  display: flex;
+  width: 300px;
+  height: 70px;
+  border: 2px solid blue;
+  align-self: center;
+  margin-top:50px;
+ justify-content: center;
+}
+
+.statement2{
+  display: flex;
+  width: 400px;
+  height: 70px;
+  border: 2px solid blue;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.picrow{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 270px;
+  border: 2px solid green;
+  margin-left: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
 
 
+.pic1{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+  border: 1px solid red;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 
+.berry{
+  display: flex;
+  border: 1px solid yellow;
+  width: 200px;
+  height:auto;
+  margin-left: 70px;
+}
+
+.spiced{
+  display: flex;
+  border: 1px solid yellow;
+  width: 173px;
+  height:auto;
+}
+
+.donuts{
+  display: flex;
+  border: 1px solid yellow;
+  width: 186px;
+  height:auto;
+  margin-right: 70px;
+}
+
+.innerpic{
+  display: flex;
+max-height:  200px;
+  border: 1px solid blue;
+}
+
+.pic2{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.pic3{
+  display: flex;
+  width:300px;
+  height:200px;
+  border: 1px solid red;
+  margin-right: 100px;
+}
+
+.secondpicrow{
+  display: flex;
+  border: 1px solid red;
+  width:1200px;
+  height: 270px;
+  margin-left: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pic4{
+  display: flex;
+  width:300px;
+  height:200px;
+  border: 1px solid red;
+  margin-left: 270px;
+}
+
+.pic5{
+  display: flex;
+  width:300px;
+  height:200px;
+  border: 1px solid red;
+  margin-right: 270px;
+}
+
+.myrtle{
+  display: flex;
+  border: 1px solid red;
+  margin-left: 260px;
+
+}
+
+.bedford{
+  display: flex;
+  border: 1px solid red;
+  margin-right: 250px;
+}
+
+
+.head h1{
+  display: flex;
+  font-size: 32px;
+}
+
+.statement2 h4{
+  display: flex;
+  font-size: 23px;
+  align-self: center;
 }
 
 /*Link underline*/
