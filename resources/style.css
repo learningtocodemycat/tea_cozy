@@ -43,7 +43,7 @@ margin-right: 13px;
 
 /*First section*/
 
-.first{
+#first{
   display: flex;
   flex-direction: row;
   width: 1300px;
@@ -91,7 +91,7 @@ margin-right: 13px;
 
 /*Second Section*/
 
-.second{
+#second{
   display: flex;
   height: 200px;
   width: 1300px;
@@ -226,6 +226,117 @@ max-height:  200px;
   margin-right: 250px;
 }
 
+
+/*Third Section*/
+
+#cozymug{
+  display: flex;
+  height: 575px;
+  width: 1200px;
+  margin-top: 60px;
+  margin-left: 50px;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+#locations {
+  display: block;
+  background-color: transparent;
+  border: 1px solid red;
+  height: 100px;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 20px;
+
+}
+
+#locations h2{
+  display: block;
+  padding-left: 50px;
+  background-color: transparent;
+  font-size: 40px;
+}
+
+.blacksquarerow{
+  display:inline-flex;
+  background-color: transparent;
+  border: 1px solid blue;
+  height: 440px;
+  width: 1200px;
+  justify-content: space-around;
+}
+
+.boxxy{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 260px;
+  width:300px;
+  margin-left: 90px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.boxxy2{
+display: flex;
+flex-direction: column;
+border: 1px solid red;
+height: 260px;
+width:300px;
+align-items: center;
+padding-bottom: 20px;
+}
+
+.boxxy3{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 260px;
+  width:300px;
+  align-items: center;
+  margin-right: 90px;
+  padding-bottom: 20px;
+
+}
+
+/*footer*/
+.botinfo{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 300px;
+  width: 1300px;
+  align-items: center;
+}
+
+  .info{
+  display: flex;
+  border: 1px solid green;
+
+}
+
+.binfo{
+  display: flex;
+  border: 1px solid red;
+  width: 265px;
+  height: 40px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding-left: 19px;
+}
+
+.sign{
+  display: flex;
+  align-self: flex-start;
+  width: 300px;
+  border: 1px solid green;
+  margin-left: 10px;
+}
 
 .head h1{
   display: flex;
