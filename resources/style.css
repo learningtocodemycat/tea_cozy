@@ -4,7 +4,6 @@
   font-size:22px;
   color: seashell;
   background-color:black;
-
 }
 
 /*Header styling*/
@@ -16,7 +15,7 @@ border-bottom: 1px solid seashell;
 position: fixed;
 top: 0;
 align-items: center;
-
+z-index: 9999;
 }
 
 /*Logo styling*/
@@ -24,6 +23,7 @@ div.logo{
 display: flex;
 height: 50px;
 margin-left: 10px;
+opacity: 0.9;
 }
 
 /*Navigation*/
@@ -33,6 +33,7 @@ div nav{
   width: 1190px;
   margin-top: 11px;
   justify-content: flex-end;
+  opacity: 0.9;
 }
 
 /*Individual links in the navigation*/
@@ -48,7 +49,6 @@ margin-right: 13px;
   flex-direction: row;
   width: 1300px;
   height: 700px;
-  border: 1px solid red;
   justify-content: center;
   margin-left: 10px;
 }
@@ -68,13 +68,13 @@ margin-right: 13px;
   height: 90px;
   justify-content: center;
   flex-direction: column;
-
 }
 
-.ourmission {
+.ourmission{
   display: flex;
   align-items: center;
   align-self: center;
+  opacity: 0.9;
 }
 
 .ourmission h2{
@@ -87,6 +87,7 @@ margin-right: 13px;
   display: flex;
   align-self: center;
   align-items: center;
+  opacity: 0.9;
 }
 
 /*Second Section*/
@@ -95,7 +96,6 @@ margin-right: 13px;
   display: flex;
   height: 200px;
   width: 1300px;
-  border: 2px solid red;
   margin-left: 10px;
   flex-direction: column;
 }
@@ -104,20 +104,19 @@ margin-right: 13px;
   display: flex;
   width: 300px;
   height: 70px;
-  border: 2px solid blue;
   align-self: center;
   margin-top:50px;
  justify-content: center;
+ opacity: 0.9;
 }
 
 .statement2{
   display: flex;
   width: 400px;
   height: 70px;
-  border: 2px solid blue;
   align-self: center;
   justify-content: center;
-
+  opacity: 0.9;
 }
 
 .picrow{
@@ -125,11 +124,9 @@ margin-right: 13px;
   flex-direction: row;
   width: 1200px;
   height: 270px;
-  border: 2px solid green;
   margin-left: 50px;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
 
@@ -138,58 +135,54 @@ margin-right: 13px;
   width: 300px;
   height: 200px;
   margin-left: 100px;
-  border: 1px solid red;
   align-items: center;
   flex-wrap: nowrap;
+
 }
 
 .berry{
   display: flex;
-  border: 1px solid yellow;
   width: 200px;
   height:auto;
   margin-left: 70px;
+  opacity: 0.9;
 }
 
 .spiced{
   display: flex;
-  border: 1px solid yellow;
   width: 173px;
   height:auto;
+  opacity: 0.9;
 }
 
 .donuts{
   display: flex;
-  border: 1px solid yellow;
   width: 186px;
   height:auto;
   margin-right: 70px;
+  opacity: 0.9;
 }
 
 .innerpic{
   display: flex;
 max-height:  200px;
-  border: 1px solid blue;
 }
 
 .pic2{
   display: flex;
   width: 300px;
   height: 200px;
-  border: 1px solid red;
 }
 
 .pic3{
   display: flex;
   width:300px;
   height:200px;
-  border: 1px solid red;
   margin-right: 100px;
 }
 
 .secondpicrow{
   display: flex;
-  border: 1px solid red;
   width:1200px;
   height: 270px;
   margin-left: 50px;
@@ -201,7 +194,6 @@ max-height:  200px;
   display: flex;
   width:300px;
   height:200px;
-  border: 1px solid red;
   margin-left: 270px;
 }
 
@@ -209,21 +201,19 @@ max-height:  200px;
   display: flex;
   width:300px;
   height:200px;
-  border: 1px solid red;
   margin-right: 270px;
 }
 
 .myrtle{
   display: flex;
-  border: 1px solid red;
   margin-left: 260px;
-
+  opacity: 0.9;
 }
 
 .bedford{
   display: flex;
-  border: 1px solid red;
   margin-right: 250px;
+  opacity: 0.9;
 }
 
 
@@ -238,21 +228,17 @@ max-height:  200px;
   background-image: url(../resources/images/img-locations-background.jpg);
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
 
 #locations {
   display: block;
   background-color: transparent;
-  border: 1px solid red;
   height: 100px;
   width: 280px;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
   padding-top: 20px;
-
 }
 
 #locations h2{
@@ -260,12 +246,12 @@ max-height:  200px;
   padding-left: 50px;
   background-color: transparent;
   font-size: 40px;
+  opacity: 0.9;
 }
 
 .blacksquarerow{
   display:inline-flex;
   background-color: transparent;
-  border: 1px solid blue;
   height: 440px;
   width: 1200px;
   justify-content: space-around;
@@ -274,28 +260,27 @@ max-height:  200px;
 .boxxy{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   height: 260px;
   width:300px;
   margin-left: 90px;
   align-items: center;
   padding-bottom: 20px;
+
 }
 
 .boxxy2{
 display: flex;
 flex-direction: column;
-border: 1px solid red;
 height: 260px;
 width:300px;
 align-items: center;
 padding-bottom: 20px;
+
 }
 
 .boxxy3{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   height: 260px;
   width:300px;
   align-items: center;
@@ -308,7 +293,6 @@ padding-bottom: 20px;
 .botinfo{
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   height: 300px;
   width: 1300px;
   align-items: center;
@@ -316,28 +300,29 @@ padding-bottom: 20px;
 
   .info{
   display: flex;
-  border: 1px solid green;
-
+  padding-left: 10px;
+  opacity: 0.9;
 }
 
 .binfo{
   display: flex;
-  border: 1px solid red;
   width: 265px;
   height: 40px;
   font-size: 40px;
   margin-bottom: 50px;
   padding-left: 19px;
+  opacity: 0.9;
 }
 
 .sign{
   display: flex;
   align-self: flex-start;
   width: 300px;
-  border: 1px solid green;
   margin-left: 10px;
+  opacity: 0.9;
 }
 
+/*font-size and opacity changes*/
 .head h1{
   display: flex;
   font-size: 32px;
@@ -347,6 +332,18 @@ padding-bottom: 20px;
   display: flex;
   font-size: 23px;
   align-self: center;
+}
+
+h2{
+  opacity: 0.9;
+}
+
+h3{
+  opacity: 0.9;
+}
+
+p{
+  opacity: 0.9;
 }
 
 /*Link underline*/
